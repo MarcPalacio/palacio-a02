@@ -28,8 +28,7 @@ public class Solution06 {
 
     public int askForInput(String question){
         System.out.print(question);
-        int output = in.nextInt();
-        return output;
+        return in.nextInt();
     }
 
     public void calcNOutput(int curYear, int curAge, int retAge){
